@@ -1,0 +1,97 @@
+/* entry*/
+
+.entry {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/contactHome.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.slogan {
+    color: white;
+    padding: 100px 0;
+    font-family: serif;
+}
+
+
+/*history*/
+
+.history {
+    margin: 100px 0;
+}
+
+.history h3,
+.contact h3 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+
+/*contact*/
+
+.contact {
+    margin-bottom: 100px;
+}
+
+.slider-container {
+    overflow: hidden;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 500px;
+    display: flex;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+form img,
+form input,
+form textarea {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+
+form img {
+    width: 50px;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+form button:hover {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 767.98px) {
+    form img {
+        display: none;
+    }
+}

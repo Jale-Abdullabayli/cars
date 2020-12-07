@@ -1,0 +1,157 @@
+/* entry*/
+
+.entry {
+    background-image: url("../img/mainHome.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.slogan {
+    color: white;
+    padding: 200px 0;
+    font-family: serif;
+}
+
+
+/*services*/
+
+.service {
+    margin: 100px 0;
+}
+
+.service h3,
+.section h3,
+.engine h3 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.service .card-title {
+    font-weight: bold;
+}
+
+.service .card {
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.service .card img {
+    transition: all 0.5s;
+}
+
+.service .card img:hover {
+    transform: scale(1.5);
+}
+
+.service .card:hover {
+    background-color: black;
+    color: white;
+}
+
+.service .card a {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.white-border {
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    height: 1px;
+}
+
+
+/*section*/
+
+.section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/paralax.jpg');
+    background-attachment: fixed;
+    height: 250px;
+    background-size: cover;
+}
+
+.section .text-center {
+    color: white;
+    padding: 90px 0;
+}
+
+.section h3 {
+    border-bottom: 5px solid white;
+    padding: 10px 30px;
+}
+
+
+/*engine*/
+
+.engine {
+    margin: 100px 0;
+}
+
+.engine img {
+    width: 100%;
+}
+
+.engine .col-md-6 .container:hover .overLay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.engine .col-md-6 .container:hover .overLayText {
+    opacity: 1;
+}
+
+.engine .col-md-6 {
+    margin-bottom: 20px;
+}
+
+.engine .col-md-6 .container {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+.engine .overLay {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: 0.7s;
+}
+
+.engine .overLay div {
+    opacity: 0;
+}
+
+.engine .leftLay {
+    left: 0;
+}
+
+.engine .rightLay {
+    right: 0;
+}
+
+.overLay div {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

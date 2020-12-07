@@ -1,0 +1,88 @@
+/* entry*/
+
+.entry {
+    background-image: url("../img/carsHome.jpg");
+    background-position: center;
+    height: 400px;
+    background-size: cover;
+}
+
+.slogan {
+    color: white;
+    padding: 100px 0;
+    font-family: serif;
+}
+
+
+/*inspect*/
+
+.inspect {
+    margin: 100px 0;
+}
+
+.inspect h3,
+.project h3 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.inspect img {
+    width: 100%;
+    height: 100%;
+}
+
+.inspect .col-md-6 {
+    margin-bottom: 20px;
+}
+
+.inspect i,
+.inspect b {
+    display: block;
+}
+
+.inspect a {
+    float: right;
+    color: #333333;
+}
+
+
+/*project*/
+
+.project {
+    margin: 150px 0;
+}
+
+.Barracuda {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/projectX.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.Barracuda button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+}
+
+.Barracuda p {
+    color: white;
+}
+
+.Barracuda .projectTitle {
+    padding: 200px 0;
+}
+
+.Barracuda button:hover {
+    color: black;
+    background-color: gray;
+}
+
+.properties {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+}

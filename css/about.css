@@ -1,0 +1,111 @@
+/* entry*/
+
+.entry {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/aboutHome.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.slogan {
+    color: white;
+    padding: 100px 0;
+    font-family: serif;
+}
+
+
+/*history*/
+
+.history {
+    margin: 100px 0;
+}
+
+.history h3,
+.team h3 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.history img {
+    width: 100%;
+    height: 100%;
+}
+
+.history .col-md-4 {
+    padding: 0;
+}
+
+.history .row {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.history .col-6 .row {
+    padding: 0 10px;
+}
+
+.history .row .text-center {
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
+
+
+/*team*/
+
+.team {
+    margin: 100px 0;
+}
+
+.team .col-4 {
+    position: relative;
+    padding: 0;
+}
+
+.team .col-4 img {
+    width: 100%;
+}
+
+.team .ceo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.team .ceo .icons i {
+    margin: 0 10px;
+}
+
+.team .black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.team .black h5 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/*media queries*/
+
+@media (max-width: 767.98px) {
+    .history .row .text-center {
+        height: 100px;
+    }
+}
